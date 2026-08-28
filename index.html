@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Story | A film in five scenes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="film">
+        <div class="grain" aria-hidden="true"></div>
+        <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+        <div class="nameplate" aria-label="For Hala">Hala <span>♥</span></div>
+
+        <section class="opening scene-panel is-active" id="opening" aria-labelledby="openingTitle">
+            <div class="opening-copy">
+                <p class="eyebrow">A little film about us <span>·</span> 2026</p>
+                <h1 id="openingTitle"><span>Every love story</span><em>has a beginning.</em></h1>
+                <p class="opening-line" id="openingLine">Ours began on a day I never knew would change my life forever.</p>
+                <button class="primary-button" id="startButton" type="button">Start our story <span>♥</span></button>
+            </div>
+            <div class="opening-mark" aria-hidden="true">01<br><small>of 05</small></div>
+        </section>
+
+        <section class="story scene-panel" id="story" aria-label="Our story in five pages">
+            <div class="story-topline"><span class="eyebrow">Our story</span><span class="scene-count">Scroll to turn the page</span></div>
+            <div class="story-book" id="storyBook"></div>
+        </section>
+
+        <section class="interlude scene-panel" id="interlude" aria-labelledby="interludeTitle">
+            <p class="eyebrow">The quiet part</p>
+            <h2 id="interludeTitle">And after all these moments…</h2>
+            <p>there is only one thing I want you to know.</p>
+            <button class="text-button light" id="continueButton" type="button">Continue <span>→</span></button>
+        </section>
+
+        <section class="ending scene-panel" id="ending" aria-labelledby="endingTitle">
+            <div class="ending-image" aria-hidden="true"></div>
+            <div class="ending-content">
+                <p class="eyebrow">The next chapter</p>
+                <h2 id="endingTitle">Will you continue<br><em>this story with me?</em></h2>
+                <p class="ending-subtitle">Not just today. Not just tomorrow.<br>But for the rest of our lives. <span>♥</span></p>
+                <div class="ending-actions">
+                    <button class="primary-button" id="yesButton" type="button">Yes, I will <span>♥</span></button>
+                    <button class="maybe-button" id="maybeButton" type="button">Maybe later <span>😏</span></button>
+                </div>
+                <p class="response" id="response" role="status"></p>
+            </div>
+        </section>
+
+        <section class="celebration scene-panel" id="celebration" aria-labelledby="celebrationTitle">
+            <div class="hearts" aria-hidden="true"></div>
+            <div class="balloons" aria-hidden="true">
+                <span class="balloon balloon-one"></span>
+                <span class="balloon balloon-two"></span>
+                <span class="balloon balloon-three"></span>
+                <span class="balloon balloon-four"></span>
+                <span class="balloon balloon-five"></span>
+            </div>
+            <p class="eyebrow">A promise, then</p>
+            <h2 id="celebrationTitle">Happy Birthday,<br><em>Hala.</em></h2>
+            <p class="personal-note">I love you more with every chapter.<br>Today is all about you. <span>♥</span></p>
+            <div class="signature">With all my love <span>♥</span></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
