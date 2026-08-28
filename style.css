@@ -30,7 +30,7 @@ button { border: 0; font: inherit; cursor: pointer; }
 .eyebrow { color: var(--rose); font-size: 11px; font-weight: 700; letter-spacing: .18em; margin: 0; text-transform: uppercase; }
 .eyebrow span { color: var(--muted); padding: 0 7px; }
 
-.opening { display: flex; align-items: center; background: linear-gradient(90deg, rgba(16,19,20,.98) 12%, rgba(16,19,20,.76) 55%, rgba(16,19,20,.15)), url("https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=1800&q=85") center/cover; }
+.opening { display: flex; align-items: center; background: linear-gradient(90deg, rgba(16,19,20,.98) 12%, rgba(16,19,20,.76) 55%, rgba(16,19,20,.15)), url("image/life1.jpg") center/cover; }
 .opening-copy { max-width: 680px; }
 h1, h2 { font-family: "DM Serif Display", serif; font-weight: 400; letter-spacing: 0; }
 h1 { font-size: clamp(54px, 8vw, 112px); line-height: .96; margin: 28px 0 31px; }
@@ -111,9 +111,9 @@ h1 em, h2 em { color: var(--rose); font-style: italic; }
 .page-frame figcaption { color: var(--muted); display: flex; font-size: 10px; justify-content: space-between; letter-spacing: .1em; margin-top: 16px; text-transform: uppercase; }
 .page-frame figcaption span:last-child { color: var(--gold); }
 .story .scene-count { color: var(--gold); }
-.interlude { background: linear-gradient(rgba(9,7,8,.84), rgba(38,9,18,.9)), url("image/meandmyfianceone.jpeg") center/cover; }
-.ending-image { background: linear-gradient(90deg, rgba(9,7,8,.98) 18%, rgba(38,9,18,.8) 57%, rgba(9,7,8,.25)), url("image/meandmyfiancecatroon.jpg") center/cover; }
-.celebration { background: linear-gradient(rgba(9,7,8,.8), rgba(84,24,43,.88)), url("image/meandmyfiancecatroon.jpg") center/cover; }
+.interlude { background: linear-gradient(rgba(9,7,8,.84), rgba(38,9,18,.9)), url("image/more.jpg") center/cover; }
+.ending-image { background: linear-gradient(90deg, rgba(9,7,8,.98) 18%, rgba(38,9,18,.8) 57%, rgba(9,7,8,.25)), url("image/life5.jpg") center/cover; }
+.celebration { background: linear-gradient(rgba(9,7,8,.8), rgba(84,24,43,.88)), url("image/life5.jpg") center/cover; }
 .primary-button { background: var(--rose); color: var(--paper); }
 .primary-button:hover { background: #ad3450; }
 .celebration .personal-note span { color: var(--rose); }

@@ -1,9 +1,9 @@
 const scenes = [
-	{ kicker: "The beginning", title: "12 December 2021 — the day we became us.", description: "The first time I told you I loved you, and the day our story officially began.", caption: "The first page", date: "12 December 2021", image: "image/meandmyfiancecatroon.jpg", imagePosition: "center 12%" },
-	{ kicker: "The little things", title: "Somehow, ordinary days became our favorite ones.", description: "The small jokes, the long talks, the comfortable silence. You made the everyday feel like a memory worth keeping.", caption: "The in-between moments", date: "Chapter two", image: "image/meandmyfianceone.jpeg", imagePosition: "center 12%" },
-	{ kicker: "The laughter", title: "You are still the easiest person to laugh with.", description: "Every funny moment became an inside joke. Every inside joke became another reason to fall for you.", caption: "Our kind of chaos", date: "Chapter three", image: "image/meandmyfiancetwo.jpeg", imagePosition: "center 12%" },
-	{ kicker: "The real parts", title: "We found our way through the harder days, too.", description: "Not every scene was perfect, but we stayed. And that is the part of our story I am most proud of.", caption: "Still choosing us", date: "Chapter four", image: "image/me 1.jpg", extraImage: "image/me 2.jpg", imagePosition: "center 12%" },
-	{ kicker: "The why", title: "You make my world feel more like home.", description: "You are kind, unforgettable, and entirely yourself. That is why every future I imagine has you in it.", caption: "My favorite person", date: "Chapter five", image: "image/meandmyfiancecatroon.jpg", imagePosition: "center 50%" }
+	{ kicker: "The beginning", title: "12 December 2021 — the day we became us.", description: "The first time I told you I loved you, and the day our story officially began.", caption: "The first page", date: "12 December 2021", image: "image/life1.jpg", imagePosition: "center" },
+	{ kicker: "The little things", title: "Somehow, ordinary days became our favorite ones.", description: "The small jokes, the long talks, the comfortable silence. You made the everyday feel like a memory worth keeping.", caption: "The in-between moments", date: "Chapter two", image: "image/life2.jpg", imagePosition: "center" },
+	{ kicker: "The laughter", title: "You are still the easiest person to laugh with.", description: "Every funny moment became an inside joke. Every inside joke became another reason to fall for you.", caption: "Our kind of chaos", date: "Chapter three", image: "image/life3.jpg", imagePosition: "center" },
+	{ kicker: "The real parts", title: "We found our way through the harder days, too.", description: "Not every scene was perfect, but we stayed. And that is the part of our story I am most proud of.", caption: "Still choosing us", date: "Chapter four", image: "image/life4.jpg", extraImage: "image/more.jpg", imagePosition: "center" },
+	{ kicker: "The why", title: "You make my world feel more like home.", description: "You are kind, unforgettable, and entirely yourself. That is why every future I imagine has you in it.", caption: "My favorite person", date: "Chapter five", image: "image/life5.jpg", imagePosition: "center" }
 ];
 
 const panels = ["opening", "story", "interlude", "ending", "celebration"];
@@ -65,4 +65,3 @@ function createHearts() {
 		container.appendChild(heart);
 	}
 }
-
