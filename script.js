@@ -13,7 +13,8 @@ const bgMusic = $("bgMusic");
 
 function startMusic() {
 	if (!bgMusic) return;
-	bgMusic.volume = 0.55;
+	bgMusic.muted = false;
+	bgMusic.volume = 0.45;
 	bgMusic.play().catch(() => {
 		console.log("Audio will start after the first user interaction.");
 	});
